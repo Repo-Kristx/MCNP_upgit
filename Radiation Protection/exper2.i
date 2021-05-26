@@ -1,12 +1,16 @@
-C 实验二：gamma放射源屏蔽层设计
-C 放射源：1e+4 Ci Co-60源，E1=1.17MeV, E2=1.33 MeV, E=1.25 MeV
-C 屏蔽体：主屏蔽层170 cm，穹顶155 cm，地基500 cm
-C 探测器卡： F5 
-C ------------------------------- C
-C Author   牛钰功                  
-C Date     2021-4-25
-C E-mail   niuyugong@outlook.com
-C ------------------------------- C
+C 实验二: gamma放射源屏蔽层设计
+C Source: 1e+4 Ci Co-60，E1=1.17MeV, E2=1.33 MeV, E=1.25 MeV
+C Shield: MainShield=170 cm，Roof=155 cm，Ground=500 cm
+C Tally: F5 
+C ------------------------------------------------------ C
+C Author   Zihao Xu              
+C Date     2021-5-27
+C E-mail   zhxu8354@khu.ac.kr
+C git@github.com:Repo-Kristx/MCNP_upgit.git
+C ------------------------------------------------------ C
+C -----#####! OPEN SOURCE, NO COMMERCIAL USE !#####----- C
+C ------------------------------------------------------ C
+C -----program start here----- C
 C ==================
 C 栅元卡
 C ------------------
@@ -87,3 +91,4 @@ F5:P    295 220 150 1.5
          85 715 150 1.5
 C 抽样次数
 NPS 1E4
+C -----program end here----- C
